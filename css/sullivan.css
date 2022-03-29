@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  h2, .h2 {
+    font-size: calc(2rem + 1.5vw);
+  }
+  h3, .h3 {
+    font-size: calc(1.2rem + 1.5vw);
+  }
+  h4, .h4 {
+    font-size: calc(.7rem + 1.5vw);
+  }
+  h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+
+  .accent {
+      color: #FF3FFF;
+      text-decoration: underline;
+  }
+
+  .bg-black {
+      background-color: black;
+  }
+
+  .page-section {
+    height:100vh;
+  }
+  .align-middle {
+      padding-top:35vh;
+  }
+
+  .hideme
+  {
+      opacity:0;
+  }
+
+  hr.mt-4 {
+    height: 2px;
+    width: 25vw;
+    background-color: white;
+    opacity: 100;
+}
+
+.gif-bg {
+    background-image: url('../img/headergif.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#loader {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('../img/headergif.gif')no-repeat center center;
+}
+
+h1 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: poppins;
+}
+
+span.typewriter {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.bg-image {
+  background-image: url("../img/Nof1.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 500px; /* You must set a specified height */
+}
